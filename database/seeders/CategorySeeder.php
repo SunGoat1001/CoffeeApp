@@ -34,5 +34,7 @@ class CategorySeeder extends Seeder
             Category::create($category);
         }
 
+        // Category::factory()->count(1000)->create();
+
     }
 }
