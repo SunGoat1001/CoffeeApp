@@ -21,7 +21,7 @@
                     "
                     :class="{ 'border-primary-500 border-b-2 text-primary-500': activeIndex === {{ $loop->index }} }">
                     <a class="font-normal text-base text-on-surface-600 hover:text-on-primary-600">
-                        {{ $category['name'] }}
+                        {{ __($category['name']) }}
                     </a>
                 </li>
             @endforeach
