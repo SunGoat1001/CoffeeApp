@@ -14,7 +14,6 @@ use Illuminate\Support\Facades\Route;
 
 class RouteServiceProvider extends ServiceProvider
 {
-    
     /**
      * The event to listener mappings for the application.
      *
